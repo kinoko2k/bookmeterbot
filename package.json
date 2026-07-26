@@ -1,0 +1,20 @@
+{
+  "name": "bookmeterbot",
+  "version": "1.0.0",
+  "description": "Discord Bot for Bookmeter",
+  "main": "src/bot.js",
+  "scripts": {
+    "test": "node src/test_scraper.js",
+    "deploy.js": "node src/deploy.js",
+    "bot.js": "node src/bot.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "cheerio": "^1.0.0-rc.12",
+    "discord.js": "^14.27.0",
+    "dotenv": "^17.4.2"
+  }
+}
